@@ -17,6 +17,20 @@
 .color-orange{
     color: #FD6E0A;
 }
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 .btn{
    background-color:#FD6E0A ;
    color: white;
@@ -30,8 +44,9 @@
 
 header{
     background-color: #FFF8F3;
-    background: url("../images/"); , url("../")
-    /* background-repeat: none; */
+    background: url("./images/developer.png") , url("./images/header_bg.png") #FFF8F3 ;
+    background-position: top left, bottom right ;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }   
 nav{
@@ -77,13 +92,40 @@ nav .menu a{
     color: #181818;
     margin-bottom: 20px;
 }
+#banner h1 .a-color , .i-color{
+    color: #FD6E0A;
+}
 #banner .banner-content p{
     font-size: 18ps;
-    color: #757575;
+    color: #474747;
     line-height: 30px;
     margin-bottom: 30px;
 }
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top:130px ;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .inf.o-card p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .inf.o-card h4{
+    font-size: 20px
 }
