@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* shared style */
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -42,6 +42,11 @@
    font-weight: bold;
    cursor: pointer;
 }
+.text-center{
+    text-align: center;
+}
+
+/* main style */
 
 header{
     background-color: #FFF8F3;
@@ -207,4 +212,52 @@ nav .menu a{
     line-height: 28px #757575;
     color: #757575 ;
 }
-                    
+ .submit-btn{
+    background-color:#FD6E0A ;
+   color: white;
+   border: none;
+   padding: 18px 35px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }       
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px ;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="email"] , .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
